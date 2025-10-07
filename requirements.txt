@@ -1,12 +1,9 @@
 starknet_py
-telegram
-python-dotenv
-requests
 aiohttp
-nest_asyncio
 loguru
-websockets
-flask
+eth-account
 web3
 pydantic
-aiohttp
+flask
+telegram
+dotenv
