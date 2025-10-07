@@ -1,0 +1,12 @@
+starknet_py
+telegram
+python-dotenv
+requests
+aiohttp
+nest_asyncio
+loguru
+websockets
+flask
+web3
+pydantic
+aiohttp
