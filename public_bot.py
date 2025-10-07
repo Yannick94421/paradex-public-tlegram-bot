@@ -4,6 +4,7 @@ from telegram import Update, Bot
 from telegram.ext import Application, CommandHandler, ContextTypes
 from dotenv import load_dotenv
 import os
+from keep_alive import keep_alive
 load_dotenv()
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 if TELEGRAM_TOKEN is None:
@@ -89,4 +90,5 @@ def main():
 
 
 if __name__ == "__main__":
+    keep_alive()
     main()
